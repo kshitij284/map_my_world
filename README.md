@@ -20,7 +20,7 @@ Ensure that you have the following installed:
 ## Installation & Setup
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/map_my_world.git
+   git clone https://github.com/kshitij284/map_my_world.git
    cd map_my_world
    ```
 2. Build the workspace:
