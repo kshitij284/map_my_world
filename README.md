@@ -52,20 +52,6 @@ Ensure that you have the following installed:
    ```
    - Add the `Map` and `PointCloud2` topics to visualize the mapping progress.
 
-## File Structure
-```
-map_my_world/
-│── launch/
-│   ├── world.launch        # Launch file for the environment
-│   ├── mapping.launch      # Launch file for RTAB-Map SLAM
-│── src/
-│── urdf/
-│── config/
-│── worlds/
-│── CMakeLists.txt
-│── package.xml
-│── README.md
-```
 
 ## Expected Outcome
 By teleoperating the robot, you will create a 2D occupancy grid and a 3D OctoMap of the environment, which can be visualized in **RViz**. The robot should be able to map the surroundings accurately, leveraging the RTAB-Map package.
